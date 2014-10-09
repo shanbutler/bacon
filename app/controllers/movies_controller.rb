@@ -4,6 +4,7 @@ class MoviesController < ApplicationController
     @movies = Movie.all
   end
 end
+#completed chapter 4
 def new
   # default: render 'new' template
 end
