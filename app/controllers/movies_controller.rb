@@ -4,3 +4,6 @@ class MoviesController < ApplicationController
     @movies = Movie.all
   end
 end
+def new
+  # default: render 'new' template
+end
