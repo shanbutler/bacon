@@ -1,4 +1,4 @@
-Myrottenpotatoes::Application.routes.draw do
+Bacon::Application.routes.draw do
   resources :movies
   root :to => redirect('/movies')
 end
